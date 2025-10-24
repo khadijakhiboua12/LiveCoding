@@ -6,7 +6,7 @@
 .container1{
     background-color:blueviolet;
     width:500px;
-    height:250px;
+    height:300px;
     margin:10px;
     border-radius:10px;
 }
@@ -107,12 +107,12 @@
 }
 /* Pour la troisemme carte */
 .container3{
-    background-color:white;
+    background-color:hsl(0, 0%, 100%);
     width:240px;
     height:250px;
     margin:10px;
     border-radius:10px;
-    border:1px solid bisque;
+    
 }
 .banner1{
     display:flex;
@@ -142,18 +142,125 @@
     font-size:10px;
 }
 .p111{
-    color:white;
+    color:hsl(219, 29%, 14%);
     font-size:18px;
     font-weight:500px;
     margin-left:5px;
     margin-top:5px;
 }
 .p211{
-    color:hsl(0, 0%, 81%);
+    color:hsl(224, 10%, 45%);
     margin-left:5px;
     margin-top:10px;
     font-size:14px;
     line-height:20px;
     text-align:start;
+
+}
+
+
+
+
+/* /Pour le 4 catter */
+.container14{
+    background-color:hsl(219, 29%, 14%);
+    width:500px;
+    height:250px;
+    margin:10px;
+    border-radius:10px;
+}
+.banner1{
+    display:flex;
+    justify-content:start;
+    gap:20px
+}
+.logo1 img{
+    border-radius:50px;
+    width:30px;
+    height:30px;
+    margin-left:10px;
+    margin-top:5px;
+    
+}
+.h1h24 h1{
+    color:white;
+}
+.h1h24 h2{
+     color:white;
+}
+.h1h24{
+     margin-top:5px;
+    
+}
+.h1h24 h1 ,h2{
+    font-size:10px;
+}
+.p14{
+    color:white;
+    font-size:18px;
+    font-weight:500px;
+    margin-left:5px;
+      margin-top:5px;
+}
+.p24{
+    color:hsl(0, 0%, 81%);
+    margin-left:5px;
+    margin-top:10px;
+    font-size:14px;
+    line-height:20px;
+}
+
+/* ..pourcart5 */
+.container145{
+    background-color:hsl(0, 0%, 100%);
+    width:300px;
+    height:600px;
+    margin:10px;
+    border-radius:10px;
+    border:2px solid;
+}
+.banner1{
+    display:flex;
+    justify-content:start;
+    gap:20px
+}
+.logo1 img{
+    border-radius:50px;
+    width:30px;
+    height:30px;
+    margin-left:10px;
+    margin-top:5px;
+    
+}
+.h1h245 h1{
+    color:black;
+}
+.h1h245 h2{
+     color:hsl(224, 10%, 45%);
+}
+.h1h245{
+     margin-top:5px;
+    
+}
+.h1h245 h1 ,h2{
+    font-size:10px;
+}
+.p145{
+    color:hsl(217, 19%, 35%);
+    font-size:18px;
+    font-weight:500px;
+    margin-left:5px;
+      margin-top:5px;
+}
+.p245{
+    color:black;
+    margin-left:5px;
+    margin-top:10px;
+    font-size:14px;
+    line-height:20px;
+}
+.section1{
+    display:flex;
+    justify-content:start;
 
 }
